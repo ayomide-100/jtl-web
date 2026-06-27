@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jovian Tech Labs — AI Solutions & Automation</title>
+  <meta name="description" content="Jovian Tech Labs builds intelligent automation, AI integration, and smart digital solutions for modern businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav-wrapper" id="navbar">
+    <nav class="nav-inner container">
+      <a href="#" class="nav-logo" aria-label="Jovian Tech Labs home">
+        <div class="logo-mark">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="14" cy="14" r="13" stroke="#22C55E" stroke-width="2"/>
+            <circle cx="14" cy="14" r="6" fill="#22C55E" opacity="0.3"/>
+            <circle cx="14" cy="14" r="3" fill="#22C55E"/>
+            <ellipse cx="14" cy="14" rx="13" ry="5" stroke="#22C55E" stroke-width="1.2" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="logo-text">Jovian<span class="logo-accent"> Tech Labs</span></span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#benefits" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          AI-Powered Business Solutions
+        </div>
+        <h1 class="hero-headline reveal reveal-delay-1">
+          Build Smarter.<br />
+          <span class="headline-accent">Scale Faster.</span><br />
+          Stay Ahead.
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          Jovian Tech Labs helps forward-thinking businesses automate operations,
+          integrate AI, and build intelligent digital products — without the complexity.
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+          <a href="#services" class="btn btn-ghost">See What We Build</a>
+        </div>
+
+        <div class="hero-stats reveal reveal-delay-4" aria-label="Company highlights">
+          <div class="stat">
+            <span class="stat-value">10x</span>
+            <span class="stat-label">Faster Workflows</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-value">AI-First</span>
+            <span class="stat-label">Every Solution</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-value">End-to-End</span>
+            <span class="stat-label">Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">What We Do</span>
+          <h2 class="section-title" id="services-title">
+            Intelligent solutions<br />built for real results.
+          </h2>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card reveal reveal-delay-1" tabindex="0">
+            <div class="card-accent-line"></div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <path d="M6 18C6 11.373 11.373 6 18 6s12 5.373 12 12-5.373 12-12 12S6 24.627 6 18Z" stroke="#22C55E" stroke-width="1.5"/>
+                <path d="M18 12v6l4 2" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 10l3 3M26 10l-3 3M18 28v-2" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">AI Automation</h3>
+            <p class="card-desc">
+              Automate repetitive business tasks using intelligent AI-powered workflows — freeing your team to focus on work that actually matters.
+            </p>
+            <div class="card-footer">
+              <span class="card-tag">Workflow Design</span>
+              <span class="card-tag">Process Automation</span>
+            </div>
+          </article>
+
+          <article class="service-card service-card--featured reveal reveal-delay-2" tabindex="0">
+            <div class="card-accent-line"></div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <rect x="5" y="10" width="12" height="16" rx="2" stroke="#22C55E" stroke-width="1.5"/>
+                <rect x="19" y="10" width="12" height="16" rx="2" stroke="#22C55E" stroke-width="1.5"/>
+                <path d="M17 18h2" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="11" cy="14" r="2" fill="#22C55E" opacity="0.6"/>
+                <circle cx="25" cy="14" r="2" fill="#22C55E" opacity="0.6"/>
+              </svg>
+            </div>
+            <h3 class="card-title">AI Integration</h3>
+            <p class="card-desc">
+              Integrate advanced AI into your existing systems to improve efficiency, enhance decision-making, and create competitive advantages.
+            </p>
+            <div class="card-footer">
+              <span class="card-tag">API Development</span>
+              <span class="card-tag">System Design</span>
+            </div>
+          </article>
+
+          <article class="service-card reveal reveal-delay-3" tabindex="0">
+            <div class="card-accent-line"></div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="6" width="28" height="20" rx="3" stroke="#22C55E" stroke-width="1.5"/>
+                <path d="M13 30h10M18 26v4" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M10 14l3 3-3 3" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 20h5" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">AI Websites &amp; Smart Solutions</h3>
+            <p class="card-desc">
+              Build intelligent websites, web applications, and AI-powered digital experiences that engage users and drive measurable business outcomes.
+            </p>
+            <div class="card-footer">
+              <span class="card-tag">Web Apps</span>
+              <span class="card-tag">AI Products</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BENEFITS ===== -->
+    <section class="benefits section" id="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Why Jovian</span>
+          <h2 class="section-title" id="benefits-title">
+            Why businesses choose<br />Jovian Tech Labs.
+          </h2>
+        </div>
+
+        <div class="benefits-layout">
+          <div class="benefits-grid">
+
+            <div class="benefit-card reveal reveal-delay-1" tabindex="0">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8Z" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="benefit-title">Increase Productivity</h3>
+              <p class="benefit-desc">Save valuable time through automation and reclaim hours your team spends on repetitive work.</p>
+            </div>
+
+            <div class="benefit-card reveal reveal-delay-2" tabindex="0">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="9" stroke="#22C55E" stroke-width="1.8"/>
+                  <path d="M12 7v5l3 2" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="benefit-title">Reduce Costs</h3>
+              <p class="benefit-desc">Replace repetitive manual work with intelligent systems that operate 24/7 without fatigue or error.</p>
+            </div>
+
+            <div class="benefit-card reveal reveal-delay-3" tabindex="0">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 17l5-5 4 4 9-9" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14 7h6v6" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="benefit-title">Scale Faster</h3>
+              <p class="benefit-desc">Build technology foundations that expand with your business — no costly rebuilds as you grow.</p>
+            </div>
+
+            <div class="benefit-card reveal reveal-delay-1" tabindex="0">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7Z" stroke="#22C55E" stroke-width="1.8"/>
+                  <circle cx="12" cy="9" r="2.5" stroke="#22C55E" stroke-width="1.8"/>
+                </svg>
+              </div>
+              <h3 class="benefit-title">Smarter Decisions</h3>
+              <p class="benefit-desc">Leverage AI insights to understand your data and make confident, evidence-backed business decisions.</p>
+            </div>
+
+            <div class="benefit-card reveal reveal-delay-2" tabindex="0">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 12l2 2 4-4" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="benefit-title">Future-Proof Your Business</h3>
+              <p class="benefit-desc">Adopt cutting-edge technologies that keep you competitive today — and positioned to lead tomorrow.</p>
+            </div>
+
+          </div>
+
+          <div class="benefits-visual reveal reveal-delay-2" aria-hidden="true">
+            <div class="visual-card vc-top">
+              <div class="vc-label">Automation Rate</div>
+              <div class="vc-value">87<span>%</span></div>
+              <div class="vc-bar-track"><div class="vc-bar-fill"></div></div>
+            </div>
+            <div class="visual-card vc-mid">
+              <div class="vc-label">Tasks Automated</div>
+              <div class="vc-value pulse-dot">Live</div>
+              <div class="vc-flow">
+                <div class="flow-node">Input</div>
+                <div class="flow-arrow"></div>
+                <div class="flow-node flow-node--ai">AI</div>
+                <div class="flow-arrow"></div>
+                <div class="flow-node">Output</div>
+              </div>
+            </div>
+            <div class="visual-card vc-bot">
+              <div class="vc-label">Cost Reduction</div>
+              <div class="vc-value">-40<span>%</span></div>
+              <div class="vc-spark" aria-hidden="true">
+                <svg viewBox="0 0 80 30" preserveAspectRatio="none">
+                  <polyline points="0,25 15,20 30,22 45,10 60,14 80,4" stroke="#22C55E" stroke-width="2" fill="none" opacity="0.8"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-bg-glow" aria-hidden="true"></div>
+          <div class="contact-inner">
+            <div class="contact-copy">
+              <span class="section-eyebrow">Get In Touch</span>
+              <h2 class="section-title" id="contact-title">
+                Ready to build<br />something intelligent?
+              </h2>
+              <p class="contact-sub">
+                Tell us about your business. We will figure out where AI can make the biggest impact — and build it for you.
+              </p>
+              <a href="mailto:contact@joviantechlabs.com" class="btn btn-primary contact-btn">
+                Send Us a Message
+              </a>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="cd-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h13A1.5 1.5 0 0 1 18 5.5v9A1.5 1.5 0 0 1 16.5 16h-13A1.5 1.5 0 0 1 2 14.5v-9Z" stroke="#22C55E" stroke-width="1.5"/>
+                    <path d="M2 6l8 5 8-5" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="cd-label">Email</div>
+                  <a href="mailto:contact@joviantechlabs.com" class="cd-value">contact@joviantechlabs.com</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="cd-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M3 5a2 2 0 0 1 2-2h1.5a.5.5 0 0 1 .5.4l1 4a.5.5 0 0 1-.3.6l-1.5.7a10 10 0 0 0 4.6 4.6l.7-1.5a.5.5 0 0 1 .6-.3l4 1a.5.5 0 0 1 .4.5V15a2 2 0 0 1-2 2C7.4 17 3 12.6 3 8V5Z" stroke="#22C55E" stroke-width="1.5"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="cd-label">Phone</div>
+                  <a href="tel:+234000000000" class="cd-value">+234 XXX XXX XXXX</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <a href="#" class="nav-logo footer-logo" aria-label="Jovian Tech Labs home">
+        <div class="logo-mark">
+          <svg width="22" height="22" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <circle cx="14" cy="14" r="13" stroke="#22C55E" stroke-width="2"/>
+            <circle cx="14" cy="14" r="6" fill="#22C55E" opacity="0.3"/>
+            <circle cx="14" cy="14" r="3" fill="#22C55E"/>
+            <ellipse cx="14" cy="14" rx="13" ry="5" stroke="#22C55E" stroke-width="1.2" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="logo-text">Jovian<span class="logo-accent"> Tech Labs</span></span>
+      </a>
+      <p class="footer-copy">&copy; 2026 Jovian Tech Labs. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
